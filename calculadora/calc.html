@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="calc.css">
+    </head>
+
+    <body>
+
+                <div class="col">
+                    <div class="calculadora">
+                        <input id="visor" type="text" class="resultado" placeholder="0">
+                        <div class="row">
+                            <button onclick="calc('acao', 'c')" class="btn clear" type="button">C</button>
+                            <button onclick="calc('acao', '/')" class="btn" type="button">/</button>
+                            <button onclick="calc('acao', '*')" class="btn" type="button">x</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="calc('valor', 7)" class="btn" type="button">7</button>
+                            <button onclick="calc('valor', 8)" class="btn" type="button">8</button>
+                            <button onclick="calc('valor', 9)" class="btn" type="button">9</button>
+                            <button onclick="calc('acao', '-')" class="btn" type="button">-</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="calc('valor', 4)" class="btn" type="button">4</button>
+                            <button onclick="calc('valor', 5)" class="btn" type="button">5</button>
+                            <button onclick="calc('valor', 6)" class="btn" type="button">6</button>
+                            <button onclick="calc('acao', '+')" class="btn" type="button">+</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="calc('valor', 1)" class="btn" type="button">1</button>
+                            <button onclick="calc('valor', 2)" class="btn" type="button">2</button>
+                            <button onclick="calc('valor', 3)" class="btn" type="button">3</button>
+                            <button onclick="calc('acao', '.')" class="btn" type="button">.</button>
+                        </div>
+
+                        <div class="row">
+                            <button onclick="calc('valor', 0)" class="btn zero" type="button">0</button>
+                            <button onclick="calc('acao', '=')" class="btn zero" type="button">=</button>
+                        </div>
+
+                        <footer class="rodape">&copy;Roberto Martins Juchem</footer>
+                    </div>
+                </div>
+
+    </body>
+
+    <script src="calc.js"></script>
+</html>
