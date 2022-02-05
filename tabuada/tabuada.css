@@ -1,0 +1,35 @@
+body{
+    background-color: whitesmoke;
+}
+
+label{
+    font-size: larger;
+}
+legend{
+    font-size: larger;
+    text-align: center;
+}
+
+div{
+    margin: 5px;
+    text-align: center;
+}
+button{
+    margin: 5px;
+}
+.btn{
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 10px;
+    background-color: #2E2E2E;
+    font-size:medium;
+    color: ghostwhite;
+}
+
+.none{
+    width: 90px;
+    height: 30px;
+}
